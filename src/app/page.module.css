@@ -1,0 +1,47 @@
+.box{
+    width: 10vw;
+    height: 20vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    gap:10vh;
+    height: 150vh;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 60vh;
+    width: 60vw;
+    background-color: black;
+    border: 2px dotted white;
+}
+.boxItem{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(244, 244, 244);
+    list-style: none;
+   margin: 0.5rem;
+    
+}
+.button{
+   
+     
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        
+        color: white;
+        gap: 3vw;
+        padding-bottom: 2vh;
+    
+}
